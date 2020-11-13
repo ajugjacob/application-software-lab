@@ -1,0 +1,8 @@
+use lab;
+
+create table student ( sno int primary key,
+name varchar(255),
+mark int,
+dept varchar(255));
+
+INSERT INTO student VALUES(1,'Tom',50,'Computer Science');INSERT INTO student VALUES(2,'Lucy',70,'Electronics');
