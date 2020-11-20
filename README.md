@@ -1,4 +1,4 @@
-# application-software-lab
+# Application Software Lab
 
 ### Run using (in the MySQL shell)
 
