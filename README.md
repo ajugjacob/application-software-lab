@@ -3,5 +3,6 @@
 ### Run using (in the MySQL shell)
 
 ```
-SOURCE path/filename.sql
+SOURCE path/filename.sql (Linux)
+SOURCE path\filename.sql (Windows)
 ```
