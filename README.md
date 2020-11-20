@@ -3,5 +3,5 @@
 ### Run using (in the MySQL shell)
 
 ```
-source path/filename.sql
+SOURCE path/filename.sql
 ```
