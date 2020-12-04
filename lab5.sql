@@ -14,17 +14,18 @@ INSERT INTO Class VALUES (02, "Sam");
 INSERT INTO Class VALUES (03, "Carl");
 INSERT INTO Class VALUES (04, "Tom");
 
+
 COMMIT; /* COMMITED the TRANSACTION HERE */
 
-SAVEPOINT A; /* Created a SAVEPOINT named A here */
-
-INSERT INTO Class VALUES (05, "Jim");
-
-INSERT INTO Class VALUES (06, "Kevin");
+INSERT INTO Class VALUES (05, "Kevin");
 
 SELECT * FROM Class;
 
-ROLLBACK;/* ROLLEDBACK to SAVEPOINT B */
+ROLLBACK; /* ROLLBACK to last COMMIT */
+
+SAVEPOINT A; /* Created a SAVEPOINT named A here */
+
+INSERT INTO Class VALUES (06, "Jim");
 
 SELECT * FROM Class;
 
